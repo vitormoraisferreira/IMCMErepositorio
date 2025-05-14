@@ -4,25 +4,37 @@
   <meta charset="UTF-8">
   <title>IMCMe - Calculadora de IMC</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h1 class="titulo-projeto">IMCMe</h1>
-    <h2 class="subtitulo">Calculadora de IMC</h2>
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="IMCMeLogo">
+      <span>IMCMe</span>
+    </div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Calculadora</a>
+      <a href="#">Sobre</a>
+    </nav>
+    <a href="#" class="botao-topo">📚 Aprenda Mais</a>
+  </header>
+
+  <main class="conteudo">
+    <h1>Insira suas medidas</h1>
+    <p>Para calcular seu <span class="verde">IMC</span>, precisamos do seu peso e altura</p>
 
     <form id="form-imc">
-      <label for="peso">Peso (kg):</label><br>
-      <input type="number" id="peso" name="peso" step="0.1"><br><br>
+      <label for="peso">⚖️ Peso (kg)</label>
+      <input type="number" id="peso" name="peso" placeholder="Ex: 70,5" step="0.1">
 
-      <label for="altura">Altura (m):</label><br>
-      <input type="number" id="altura" name="altura" step="0.01"><br><br>
+      <label for="altura">📏 Altura (cm)</label>
+      <input type="number" id="altura" name="altura" placeholder="Ex: 175" step="1">
 
-      <input type="submit" value="Calcular IMC">
+      <button type="submit">Calcular</button>
     </form>
 
-    <p class="mensagem" id="resultado">O resultado do IMC aparecerá aqui.</p>
-  </div>
+    <p id="resultado" class="mensagem">O resultado do IMC aparecerá aqui.</p>
+  </main>
 
   <script src="java.js"></script>
 </body>

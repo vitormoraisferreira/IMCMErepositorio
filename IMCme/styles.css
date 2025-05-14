@@ -1,64 +1,115 @@
 body {
-  background-color: #f2f2f2;
-  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
-}
-
-.container {
-  background-color: #d3cece;
-  width: 400px;
-  margin: 80px auto;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-.titulo-projeto {
-  font-size: 36px;
-  font-weight: 700;
-  color: #2ecc71;
-  margin-bottom: 5px;
-}
-
-.subtitulo {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
   font-size: 18px;
-  color: #333333;
-  margin-bottom: 20px;
 }
 
-label {
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2ecc71;
+}
+
+.logo img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.botao-topo {
+  background-color: #a3ff9c;
+  color: #064e1d;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.conteudo {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.conteudo h1 {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.conteudo p {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.verde {
+  color: #2ecc71;
+}
+
+form {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
   font-weight: 600;
+  margin-top: 20px;
+  display: block;
+  font-size: 18px;
 }
 
-input[type="number"] {
+form input {
   width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 1px solid #cccccc;
-  border-radius: 6px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e4e4e4;
+  margin-top: 6px;
+  margin-bottom: 24px;
+  font-size: 16px;
   box-sizing: border-box;
 }
 
-input[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
+form button {
   width: 100%;
+  padding: 14px;
+  background-color: #f57c00;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
+form button:hover {
+  background-color: #e66900;
 }
 
 .mensagem {
-  margin-top: 20px;
-  color: #555;
-  font-size: 14px;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
 }
