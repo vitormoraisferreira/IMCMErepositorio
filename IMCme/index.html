@@ -6,36 +6,58 @@
   <title>IMCMe - Calculadora de IMC</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
+
 <body>
   <header>
     <div class="logo">
-      <img src="img/logo.png" alt="IMCMeLogo">
+      <img src="img/logo.png" alt="Logo IMCMe">
       <span>IMCMe</span>
     </div>
     <nav>
-      <a href="#">Início</a>
-      <a href="#">Calculadora</a>
-      <a href="#">Sobre</a>
+      <a href="#inicio">Início</a>
+      <a href="#calculadora">Calculadora</a>
+      <a href="#sobre">Sobre IMC</a>
     </nav>
-    <a href="#" class="botao-topo">📚 Aprenda Mais</a>
+    <a href="dicas.html" class="botao-topo">Aprenda Mais</a>
   </header>
 
-  <main class="conteudo">
-    <h1>Descubra seu IMC de um jeito único</h1>
+  
+
+  <section id="inicio" class="conteudo">
+    <h1>O que é IMC?</h1>
+
+    <p>IMC significa Índice de Massa Corporal. Ele indica se você está com o peso ideal de acordo com sua altura. É uma forma simples e rápida de avaliar sua saúde e se informar sobre seu corpo!</p>
+
+  </section>
+
+ 
+
+  <section id="calculadora" class="conteudo">
+    <h1>Insira suas medidas</h1>
     <p>Para calcular seu <span class="verde">IMC</span>, precisamos do seu peso e altura</p>
 
     <form id="form-imc">
-      <label for="peso">⚖️ Peso (kg)</label>
-      <input type="number" id="peso" name="peso" placeholder="Ex: 70,5" step="0.1">
+      <label for="peso">Peso (kg)</label>
+      <input type="number" id="peso" name="peso" placeholder="Ex: 70,5" step="1">
 
-      <label for="altura">📏 Altura (cm)</label>
+      <label for="altura">Altura (cm)</label>
       <input type="number" id="altura" name="altura" placeholder="Ex: 175" step="1">
 
       <button type="submit">Calcular</button>
     </form>
 
     <p id="resultado" class="mensagem">O resultado do IMC aparecerá aqui.</p>
-  </main>
+  </section>
+
+  
+
+  <section id="sobre" class="conteudo">
+    <h2>Sobre a página</h2>
+    <p>Essa página foi criada por Vítor Morais, Victor André e Gustavo Cândido (Sistemas de Informação UNIPAM - 1º período) como projeto de estudo, com o objetivo de aprender sobre HTML, CSS e JavaScript de forma simples e prática.</p>
+  </section>
+
+
 
   <script src="java.js"></script>
 </body>
