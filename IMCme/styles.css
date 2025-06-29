@@ -1,6 +1,8 @@
-body {                                                           
+body {                                                       
   margin: 0;
-  padding: 0;                                       /*Formatação de estilos do corpo da página.*/
+  padding: 0;  
+  justify-content: center;
+  align-items: center;                         /*Formatação de estilos do corpo da página.*/
   background-color: #ffffff;
   color: #333;
   font-size: 18px;
@@ -13,9 +15,6 @@ header {
   align-items: center;
   padding:20px 40px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
 .logo {
@@ -28,14 +27,14 @@ header {
 
 .logo img {
   width: 35px;
-  height: 35px;                         /* Formatação de estilos da imagem da logo */
+  height: 35px;                         /* Formatação de estilos da imagem da logo. */
   margin-right: 10px;
 }
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #333;                        /* Formatação de estilos das "abas" na parte superior*/
+  color: #333;                        /* Formatação de estilos das "abas" na parte superior.*/
   font-weight: 500;
   font-size: 20px;
 }
@@ -43,7 +42,7 @@ nav a {
 .botao-topo {
   background-color: #57f84b;
   color: #03170a;
-  text-decoration: none;                /* Formatação de estilos */
+  text-decoration: none;                /* Formatação de estilos do botão "Aprenda Mais".*/
   padding: 10px 20px;
   border-radius: 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
@@ -52,47 +51,54 @@ nav a {
   cursor: pointer;
 }
 
-.conteudo {
-  text-align: center;                   /* Formatação de estilos */
-  padding: 20px;
+.calcular{
+  text-align: center;
+  margin: 0 auto;                      /* Formatação de estilos da parte do calculo do IMC.*/ 
+  width: 600px;
+  height: 600px;
+  padding: 0;
+  border-radius: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .DescIMC{
-  padding: 200px;
-  margin: 10px;
+  padding: 180px;                      /* Formatação de estilos da descrição do IMC */
+  margin: 0 auto;
 }
 
 section {
-  padding: 100px 0px 0px 0px;
-  scroll-margin-top: 100px;            /* Formatação de estilos */
+  margin-top: 200px;
+  scroll-margin-top: 80px;            /* Formatação de estilos  */
   text-align: center;
 }
 
 section h1,section h2 {
-  font-size: 34px;                     /* Formatação de estilos */
-  margin-bottom: 10px;
+  font-size: 40px; 
+  padding: 25px;                      /* Formatação de estilos dos subtitulos */
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 section p {
-  padding: 20px;
-  max-width: 700px;                    /* Formatação de estilos */
+  padding: 25px;
+  font-size: 20px;                    /* Formatação de estilos dos parágrafos*/
   margin: 0 auto;
   line-height: 1.5;
 }
 
 .verde {
-  color: #2ecc71;                   /* Formatação de estilos */
+  color: #2ecc71;                   /* Formatação de estilos da cor verde em "IMC" */
 }
 
 form {
   max-width: 450px;
-  margin: 0 auto;                     /* Formatação de estilos */
+  margin: 0 auto;                     /* Formatação de estilos do formulário */
   text-align: left;
 }
 
 form label {
   font-weight: 600;
-  margin-top: 20px;                   /* Formatação de estilos */
+  margin-top: 20px;                   /* Formatação de estilos da tabela*/
   display: block;
   font-size: 18px;
 }
@@ -102,7 +108,7 @@ form input {
   padding: 14px;
   border: none;
   border-radius: 10px;
-  background-color: #e4e4e4;        /* Formatação de estilos */
+  background-color: #e4e4e4;        /* Formatação de estilos das áreas de inserção de dados: altura e peso */
   margin-top: 6px;
   margin-bottom: 24px;
   font-size: 16px;
@@ -113,7 +119,7 @@ form button {
   width: 100%;
   padding: 14px;
   background-color: #f57c00;
-  color: #fff;                       /* Formatação de estilos */
+  color: #fff;                       /* Formatação de estilos do botão "Calcular" */
   border: none;
   border-radius: 25px;
   font-size: 18px;
@@ -122,26 +128,26 @@ form button {
 }
 
 form button:hover {
-  background-color: #e66900;        /* Formatação de estilos */
+  background-color: #e66900;         /* Formatação de estilos do efeito ao passar o mouse emcima do botão "Calcular"*/
 }
 
 .mensagem {
   margin-top: 25px;
-  font-size: 18px;                    /* Formatação de estilos */
-  font-weight: 500;
+  font-size: 18px;                      /* Formatação de estilos da menasgem após o calculo do IMC */
+  font-weight: 500;   
 }
 
 .card{
   width: 20rem;
-  height: 15rem;
-  background-color: #ffffff;
-  color: #05410d;
-  border-color: #eaffe7;
+  height: 18rem;
+  background-color: #ffffff;           /* Formatação de estilos dos cards em "Apredenda Mais" */
+  color: #333;
+  border-color: #ffffff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-.footer{
-  padding: 400px 0px 0px 100px;
-  margin: 200px;
-  height: 20px;
+footer {
+    text-align: center;                  /* Formatação de estilos do rodapé do site*/
+    padding: 10px 0;
+    color: #333; 
 }
