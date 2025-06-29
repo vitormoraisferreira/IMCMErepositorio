@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #98fd32;
+  background-color: #388f63;
   display: flex;
   justify-content: space-between;       /* Formatação de estilos das "abas" da nav bar.*/
   align-items: center;
@@ -22,7 +22,7 @@ header {
   align-items: center;
   font-weight: bold;                    /* Formatação de estilos da logo do site.*/
   font-size: 24px;
-  color: #0a7919;
+  color: #ffffff;
 }
 
 .logo img {
@@ -34,7 +34,7 @@ header {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #333;                        /* Formatação de estilos das "abas" na parte superior.*/
+  color: #ffffff;                        /* Formatação de estilos das "abas" na parte superior.*/
   font-weight: 500;
   font-size: 20px;
 }
