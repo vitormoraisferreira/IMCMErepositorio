@@ -12,22 +12,22 @@
 
 
 <body>
+<!-- Parte de cima da página, onde está o nome do nosso projeto, as "abas" a serem navegadas (Inicio, Calculadora, Sobre IMC) e o botão de "Aprenda Mais" -->
   <header>
-    <!-- Parte de cima da página, onde está o nome do nosso projeto, as "abas" a serem navegadas (Inicio, Calculadora, Sobre IMC) e o botão de "Aprenda Mais" -->
     <div class="logo">
       <img src="img/logo.png" alt="Logo IMCMe">
       <span>IMCMe</span>
     </div>
     <nav>
       <a href="#inicio">Início</a>
-      <a href="#calculadora">Calculadora</a>
+      <a href="#calculadora">Calculadora</a>                          <!--Usar o #id das seções faz com que a página nos leve até ela-->
       <a href="#sobre">Sobre</a>
     </nav>
     <a href="Dicas.html" class="botao-topo">Aprenda Mais</a>
   </header>
+<!-- Final da parte de cima da página -->
 
-  <!-- Final da parte de cima da página -->
-
+<!--Seção 1: Primeira mensagem que o usuário vê ao entrar na página-->
   <section id="inicio" class="DescIMC">
     <h1>O que é IMC?</h1>
 
@@ -36,31 +36,41 @@
       🥑
     </p>
   </section>
+<!--Fim da Seção 1-->
 
-
-
+<!--Seção 2: Parte principal do projeto. É onde colocamos nossa calculadora-->
   <section id="calculadora" class="calcular">
     <h1>Insira suas medidas</h1>
     <p>Para calcular seu <span class="verde">IMC</span>, precisamos do seu peso e altura</p>
 
-    <form id="form-imc">
+    <form id="form-imc">                                                                <!--Calculadora utilizando os conceitos de formulário-->
       <label for="peso">Peso (kg)</label>
-      <input type="number" id="peso" name="peso" placeholder="Ex: 70,5" step="1">
+      <input type="number" id="peso" name="peso" placeholder="Ex: 70,5" step="1">       <!--Tag LABEL (rótulos para campos) com o input de tipo NUMBER, pois o usuario irá preencher
+                                                                                            o campo somente com números. (PESO)
+                                                                                            PLACEHOLDER: atributo que serve para exibir um texto de dica/sugestão-->                                                                                        
 
       <label for="altura">Altura (cm)</label>
-      <input type="number" id="altura" name="altura" placeholder="Ex: 175" step="1">
+      <input type="number" id="altura" name="altura" placeholder="Ex: 175" step="1">    <!--Tag LABEL (rótulos para campos) com o input de tipo NUMBER, pois o usuario irá preencher
+                                                                                            o campo somente com números. (ALTURA)
+                                                                                            PLACEHOLDER: atributo que serve para exibir um texto de dica/sugestão-->  
 
-      <button type="submit">Calcular</button>
+      <button type="submit">Calcular</button>                                           <!--Botão do tipo ENVIAR (submit)-->
     </form>
 
     <p id="resultado" class="mensagem">O resultado do IMC aparecerá aqui.</p>
   </section>
+<!--Fim da Seção 2-->
+
+<!--Inicio Seção 3: Sobre a página, falando um pouco sobre nossso grupo e projeto-->
   <section id="sobre" class="section">
     <h2>Sobre a página</h2>
     <p>Essa página foi criada por Gustavo Caixeta, Victor André e Vítor Morais (Sistemas de Informação UNIPAM - 1º
       Período) como projeto de estudo, com o objetivo de aprender sobre HTML, CSS e JavaScript de forma simples e
       prática.</p>
   </section>
+<!--Fim da Seção 3-->
+
+<!--Footer: rodapé informando os direitos da página-->
   <footer>
     <p>&copy; 2025 IMCMe - Todos os direitos reservados.</p>
   </footer>
