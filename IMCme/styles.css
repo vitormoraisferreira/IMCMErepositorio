@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;  
   justify-content: center;
-  align-items: center;                         /*Formatação de estilos do corpo da página.*/
+  align-items: center;                  /*Formatação de estilos do corpo da página.*/
   background-color: #ffffff;
   color: #333;
   font-size: 18px;
@@ -62,43 +62,43 @@ nav a {
 }
 
 .DescIMC{
-  padding: 180px;                      /* Formatação de estilos da descrição do IMC */
+  padding: 180px;                      /* Formatação de estilos da descrição do IMC.*/
   margin: 0 auto;
 }
 
 section {
   margin-top: 200px;
-  scroll-margin-top: 80px;            /* Formatação de estilos  */
+  scroll-margin-top: 80px;            /* Formatação de estilos das secções em IMCMe.html e Dicas.html.*/
   text-align: center;
 }
 
 section h1,section h2 {
   font-size: 40px; 
-  padding: 25px;                      /* Formatação de estilos dos subtitulos */
+  padding: 25px;                      /* Formatação de estilos dos subtitulos.*/
   margin-top: 50px;
   margin-bottom: 0px;
 }
 
 section p {
   padding: 25px;
-  font-size: 20px;                    /* Formatação de estilos dos parágrafos*/
+  font-size: 20px;                    /* Formatação de estilos dos parágrafos.*/
   margin: 0 auto;
   line-height: 1.5;
 }
 
 .verde {
-  color: #2ecc71;                   /* Formatação de estilos da cor verde em "IMC" */
+  color: #2ecc71;                   /* Formatação de estilos da cor verde em "IMC".*/
 }
 
 form {
   max-width: 450px;
-  margin: 0 auto;                     /* Formatação de estilos do formulário */
+  margin: 0 auto;                     /* Formatação de estilos do formulário.*/
   text-align: left;
 }
 
 form label {
   font-weight: 600;
-  margin-top: 20px;                   /* Formatação de estilos da tabela*/
+  margin-top: 20px;                   /* Formatação de estilos da tabela.*/
   display: block;
   font-size: 18px;
 }
@@ -108,7 +108,7 @@ form input {
   padding: 14px;
   border: none;
   border-radius: 10px;
-  background-color: #e4e4e4;        /* Formatação de estilos das áreas de inserção de dados: altura e peso */
+  background-color: #e4e4e4;        /* Formatação de estilos das áreas de inserção de dados: altura e peso.*/
   margin-top: 6px;
   margin-bottom: 24px;
   font-size: 16px;
@@ -119,7 +119,7 @@ form button {
   width: 100%;
   padding: 14px;
   background-color: #f57c00;
-  color: #fff;                       /* Formatação de estilos do botão "Calcular" */
+  color: #fff;                       /* Formatação de estilos do botão "Calcular".*/
   border: none;
   border-radius: 25px;
   font-size: 18px;
@@ -128,26 +128,26 @@ form button {
 }
 
 form button:hover {
-  background-color: #e66900;         /* Formatação de estilos do efeito ao passar o mouse emcima do botão "Calcular"*/
+  background-color: #e66900;         /* Formatação de estilos do efeito ao passar o mouse emcima do botão "Calcular".*/
 }
 
 .mensagem {
   margin-top: 25px;
-  font-size: 18px;                      /* Formatação de estilos da menasgem após o calculo do IMC */
+  font-size: 18px;                     /* Formatação de estilos da menasgem após o calculo do IMC.*/
   font-weight: 500;   
 }
 
 .card{
   width: 20rem;
   height: 18rem;
-  background-color: #ffffff;           /* Formatação de estilos dos cards em "Apredenda Mais" */
+  background-color: #ffffff;          /* Formatação de estilos dos cards em "Apredenda Mais".*/
   color: #333;
   border-color: #ffffff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 footer {
-    text-align: center;                  /* Formatação de estilos do rodapé do site*/
+    text-align: center;                  /* Formatação de estilos do rodapé do site.*/
     padding: 10px 0;
     color: #333; 
 }
