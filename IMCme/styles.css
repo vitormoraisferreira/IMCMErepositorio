@@ -1,7 +1,7 @@
-body {
+body {                                                           
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;     /*Formatação de estilos do corpo da página.*/
   background-color: #f4f4f4;
   color: #333;
   font-size: 18px;
@@ -10,7 +10,7 @@ body {
 header {
   background-color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;       /* Formatação de estilos */
   align-items: center;
   padding: 20px 40px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
@@ -22,21 +22,21 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  font-weight: bold;
+  font-weight: bold;                    /* Formatação de estilos */
   font-size: 24px;
   color: #2ecc71;
 }
 
 .logo img {
   width: 35px;
-  height: 35px;
+  height: 35px;                         /* Formatação de estilos */
   margin-right: 10px;
 }
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #333;
+  color: #333;                        /* Formatação de estilos */
   font-weight: 500;
   font-size: 18px;
 }
@@ -44,7 +44,7 @@ nav a {
 .botao-topo {
   background-color: #a3ff9c;
   color: #064e1d;
-  text-decoration: none;
+  text-decoration: none;                /* Formatação de estilos */
   padding: 10px 16px;
   border-radius: 20px;
   font-size: 16px;
@@ -52,42 +52,42 @@ nav a {
 }
 
 .conteudo {
-  text-align: center;
+  text-align: center;                   /* Formatação de estilos */
   padding: 120px 20px;
 }
 
 section {
   padding: 150px 20px;
-  scroll-margin-top: 120px;
+  scroll-margin-top: 120px;            /* Formatação de estilos */
   text-align: center;
 }
 
 section h1,
 section h2 {
-  font-size: 34px;
+  font-size: 34px;                     /* Formatação de estilos */
   margin-bottom: 20px;
 }
 
 section p {
   font-size: 20px;
-  max-width: 700px;
+  max-width: 700px;                    /* Formatação de estilos */
   margin: 0 auto;
   line-height: 1.6;
 }
 
 .verde {
-  color: #2ecc71;
+  color: #2ecc71;                   /* Formatação de estilos */
 }
 
 form {
   max-width: 450px;
-  margin: 0 auto;
+  margin: 0 auto;                     /* Formatação de estilos */
   text-align: left;
 }
 
 form label {
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 20px;                   /* Formatação de estilos */
   display: block;
   font-size: 18px;
 }
@@ -97,7 +97,7 @@ form input {
   padding: 14px;
   border: none;
   border-radius: 10px;
-  background-color: #e4e4e4;
+  background-color: #e4e4e4;        /* Formatação de estilos */
   margin-top: 6px;
   margin-bottom: 24px;
   font-size: 16px;
@@ -108,7 +108,7 @@ form button {
   width: 100%;
   padding: 14px;
   background-color: #f57c00;
-  color: #fff;
+  color: #fff;                       /* Formatação de estilos */
   border: none;
   border-radius: 25px;
   font-size: 18px;
@@ -117,11 +117,11 @@ form button {
 }
 
 form button:hover {
-  background-color: #e66900;
+  background-color: #e66900;        /* Formatação de estilos */
 }
 
 .mensagem {
   margin-top: 25px;
-  font-size: 18px;
+  font-size: 18px;                    /* Formatação de estilos */
   font-weight: 500;
 }
