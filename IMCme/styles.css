@@ -1,19 +1,18 @@
 body {                                                           
   margin: 0;
-  padding: 0;
-  font-family: 'Inter', sans-serif;     /*Formatação de estilos do corpo da página.*/
-  background-color: #f4f4f4;
+  padding: 0;                                       /*Formatação de estilos do corpo da página.*/
+  background-color: #ffffff;
   color: #333;
   font-size: 18px;
 }
 
 header {
-  background-color: #fff;
+  background-color: #98fd32;
   display: flex;
-  justify-content: space-between;       /* Formatação de estilos */
+  justify-content: space-between;       /* Formatação de estilos das "abas" da nav bar.*/
   align-items: center;
-  padding: 20px 40px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding:20px 40px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -22,57 +21,63 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  font-weight: bold;                    /* Formatação de estilos */
+  font-weight: bold;                    /* Formatação de estilos da logo do site.*/
   font-size: 24px;
-  color: #2ecc71;
+  color: #0a7919;
 }
 
 .logo img {
   width: 35px;
-  height: 35px;                         /* Formatação de estilos */
+  height: 35px;                         /* Formatação de estilos da imagem da logo */
   margin-right: 10px;
 }
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #333;                        /* Formatação de estilos */
+  color: #333;                        /* Formatação de estilos das "abas" na parte superior*/
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .botao-topo {
-  background-color: #a3ff9c;
-  color: #064e1d;
+  background-color: #57f84b;
+  color: #03170a;
   text-decoration: none;                /* Formatação de estilos */
-  padding: 10px 16px;
+  padding: 10px 20px;
   border-radius: 20px;
-  font-size: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .conteudo {
   text-align: center;                   /* Formatação de estilos */
-  padding: 120px 20px;
+  padding: 20px;
+}
+
+.DescIMC{
+  padding: 200px;
+  margin: 10px;
 }
 
 section {
-  padding: 150px 20px;
-  scroll-margin-top: 120px;            /* Formatação de estilos */
+  padding: 100px 0px 0px 0px;
+  scroll-margin-top: 100px;            /* Formatação de estilos */
   text-align: center;
 }
 
-section h1,
-section h2 {
+section h1,section h2 {
   font-size: 34px;                     /* Formatação de estilos */
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 section p {
-  font-size: 20px;
+  padding: 20px;
   max-width: 700px;                    /* Formatação de estilos */
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .verde {
@@ -124,4 +129,19 @@ form button:hover {
   margin-top: 25px;
   font-size: 18px;                    /* Formatação de estilos */
   font-weight: 500;
+}
+
+.card{
+  width: 20rem;
+  height: 15rem;
+  background-color: #ffffff;
+  color: #05410d;
+  border-color: #eaffe7;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer{
+  padding: 400px 0px 0px 100px;
+  margin: 200px;
+  height: 20px;
 }
